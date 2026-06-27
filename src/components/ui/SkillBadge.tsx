@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
-import React from "react";
 
 interface SkillBadgeProps {
   skill: string;

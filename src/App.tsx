@@ -8,7 +8,7 @@ import { PersonalProjects } from "@/components/sections/PersonalProjects";
 import { Education } from "@/components/sections/Education";
 import { Contact } from "@/components/sections/Contact";
 
-export default function Home() {
+export default function App() {
   return (
     <>
       <Navbar />
