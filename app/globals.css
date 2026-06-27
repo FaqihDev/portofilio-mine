@@ -1,26 +1,65 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-primary: #020817;
+  --bg-secondary: #0f172a;
+  --bg-card: #1e293b;
+  --accent-primary: #6366f1;
+  --accent-glow: #818cf8;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --border: #334155;
+
+  --skill-backend: #3b82f6;
+  --skill-db: #10b981;
+  --skill-cloud: #f59e0b;
+  --skill-tools: #8b5cf6;
+  --skill-domain: #ec4899;
+  --skill-broker: #a855f7;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-card: var(--bg-card);
+  --color-accent: var(--accent-primary);
+  --color-accent-glow: var(--accent-glow);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-border-subtle: var(--border);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.bg-stitch-hero {
+  background-image: linear-gradient(rgba(13, 19, 34, 0.7), rgba(13, 19, 34, 0.7)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuBXV1bBnv5ytT-uFEJXNIIqUisgRpBh7AsaVnCL83RftNSoNrlLEfhnwlOFdkw_9GBjMXl77VO_Ht5wX92yyskYqVZUBIKQGb-dNVdcx7K_B9eM4xH2xeCzBXMGREdx0tBfVciB1-WQw07pWKCp5spwbgWY_X004-FFSsLEdRWD3wCfLRkkNioDAHsRr7mQtlcCIVq-6NYL02B2o0uEPysgJcPyp7cRXnERwamxgHlW1XeHjmRS_lDI8cZpMawB204p34E_QX1ZECw');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-stitch-about {
+  background-image: linear-gradient(rgba(13, 19, 34, 0.85), rgba(13, 19, 34, 0.85)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuCC-p6FcIzsYD1FpUMiphjxd2pkUrUSC09Io7DJJySOytdSWOw1uAvpcxE4NhdEavrkmeODtxp6YG6kOe_9WfCbEOBUkwd_zWLT82CfzFnbJl2xVxdtAunbdbZDhlRIWnQf8_E-HhZpJzOokHfUiyN8PiGkiojrDSKwEV9xFDYOuF6kHlNTewnd5fYPJPcZYG7XIxp-rtofhqYhM-fl5Vw6n2Y6Vg9tUNGffLjbfLsPr9_r3Ica18aj_14ZOBPIqtNQlDZTK094QRw');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-stitch-experience {
+  background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC4gZTMvvR3EwNBD0Q3jYAaI3rBcQvXLe2A7czpYwh_WjvXDvQDEIFhsSCoQHkMt-UVyr-2PK2SxesW1sdkLOQn68b3iPn8lWy5MYvnzpgJf_vyV_nqdwcVMyqQWufZUz_vhlHDUBwXlSOQfMSU01Kq_xNlG9_2U9c3AXRvfR31YtQxu2jBD-fS3DxWP3a4LiA282KSXSd6-jzsoOYwyV1V2Y5DEDakvb-TDdio3rRvVD7e06a76bLqidvxD5txX9B1p9eNUitUnr0');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-stitch-projects {
+  background-image: linear-gradient(rgba(8, 14, 29, 0.85), rgba(8, 14, 29, 0.85)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuCiQaiSaah1iAFitfiGQq9T3Hjdki0LGzYN8Iv2PKnOyVxyksErb3mlUkqAaw_1aUhd9yvssnmR75oCb6hpUTQ1aLTR6DcVLsC49tuL2y8mPZDKs71bRaGvPigE6RQe9y_mnS_l8dX1tc3_jMociiQLmIhn7i1gf76bu3FKYCe48R-Cjww-iYGrxM5tv0uT10sFN8IsptsspqzIfugLOQntejvVLAnOs5qrPk7lVguteDqw3zFDdQXQrtb7KiL22L8VGkuhQUfgIao');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
