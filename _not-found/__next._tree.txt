@@ -1,0 +1,2 @@
+:HL["/portofilio-mine/_next/static/chunks/0480gg3h5h3i9.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"1a8gV69E-eB_HgAM1aLvP"}

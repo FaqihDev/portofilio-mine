@@ -1,0 +1,13 @@
+1:"$Sreact.fragment"
+2:I[7988,["/portofilio-mine/_next/static/chunks/158myu8e_yme3.js","/portofilio-mine/_next/static/chunks/132dzpsagqwgq.js"],"Navbar"]
+3:I[36181,["/portofilio-mine/_next/static/chunks/158myu8e_yme3.js","/portofilio-mine/_next/static/chunks/132dzpsagqwgq.js"],"Hero"]
+4:I[95677,["/portofilio-mine/_next/static/chunks/158myu8e_yme3.js","/portofilio-mine/_next/static/chunks/132dzpsagqwgq.js"],"About"]
+5:I[98072,["/portofilio-mine/_next/static/chunks/158myu8e_yme3.js","/portofilio-mine/_next/static/chunks/132dzpsagqwgq.js"],"Skills"]
+6:I[87290,["/portofilio-mine/_next/static/chunks/158myu8e_yme3.js","/portofilio-mine/_next/static/chunks/132dzpsagqwgq.js"],"Experience"]
+7:I[35835,["/portofilio-mine/_next/static/chunks/158myu8e_yme3.js","/portofilio-mine/_next/static/chunks/132dzpsagqwgq.js"],"PersonalProjects"]
+8:I[54084,["/portofilio-mine/_next/static/chunks/158myu8e_yme3.js","/portofilio-mine/_next/static/chunks/132dzpsagqwgq.js"],"Education"]
+9:I[30618,["/portofilio-mine/_next/static/chunks/158myu8e_yme3.js","/portofilio-mine/_next/static/chunks/132dzpsagqwgq.js"],"Contact"]
+a:I[97367,["/portofilio-mine/_next/static/chunks/158myu8e_yme3.js"],"OutletBoundary"]
+b:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","main",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}],["$","footer",null,{"className":"border-t border-border-subtle bg-bg-secondary py-10 text-center text-sm text-text-secondary","children":["$","div",null,{"className":"mx-auto max-w-7xl px-6","children":["$","div",null,{"className":"flex flex-col items-center justify-center gap-4","children":[["$","a",null,{"href":"#top","className":"text-xl font-bold tracking-tighter text-text-primary","children":["FAR",["$","span",null,{"className":"text-accent","children":"."}]]}],["$","p",null,{"children":["© ",2026," ","Faqih Abdul Rachman"," · Built with Next.js & ❤️"]}]]}]}]}]],[["$","script","script-0",{"src":"/portofilio-mine/_next/static/chunks/132dzpsagqwgq.js","async":true}]],["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"1a8gV69E-eB_HgAM1aLvP"}
+c:null
