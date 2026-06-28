@@ -58,6 +58,7 @@ export const experiences = [
     client: "Avantrade",
     role: "Technical Developer",
     duration: "Maret 2026 – Juni 2026",
+    overview: "Merupakan aplikasi layanan pengelolaan kekayaan customer dengan menawarkan berbagai produk investasi yg sesuai dengan kebutuhan customer. dan juga dapat melakukan forecasting terhadap target dari pada investasi sesuai dengan profil resiko",
     highlights: [
       "Hands on developing on Menu Back Office that maintain the purchase of customer on of every investment product provided on Avantrade",
       "Bug Fixing and enhance performance by implementing Indexing on slow endpoint / API."
@@ -71,6 +72,7 @@ export const experiences = [
     client: "Rintis",
     role: "Technical Developer",
     duration: "Oktober 2025 – Februari 2026",
+    overview: "Merupakan Fitur PPOB yang didevelop didalam aplikasi produk internal yaitu WOI ( Wallet Of Indivara ) dimana memungkinkan user bisa melakukan pembayaran tagihan biller PDAM dan KAI melalui aplikasi WOI",
     stack: ["Mulesoft", "Anypoints", "Java"],
     highlights: [
       "Develop dan integrasi WOI Wallet dengan third-party via Mulesoft",
@@ -84,6 +86,7 @@ export const experiences = [
     client: "Bank of Philippine Islands",
     role: "Technical Developer",
     duration: "April 2025 – Oktober 2025",
+    overview: "Merupakan aplikasi Wallet yang merupakan base dari WOI yang dienhance untuuk kebutuhan Client dari Filiphine ( BPI )",
     stack: ["Java", "Spring Boot"],
     highlights: [
       "Desain dan implementasi RESTful API untuk enhancement feature",
@@ -97,6 +100,7 @@ export const experiences = [
     client: "Bank of Philippine Islands",
     role: "Technical Developer",
     duration: "November 2024 – Maret 2025",
+    overview: "Merupakan Aplikasi untuk pembayaran BBM untuk client dari Philiphines",
     stack: ["Spring Framework", "AWS"],
     highlights: [
       "Performance improvement pada aplikasi existing",
@@ -110,6 +114,7 @@ export const experiences = [
     client: "Mitra Adi Perkasa",
     role: "Technical Developer",
     duration: "Mei 2023 – November 2023",
+    overview: "Merupakan Apllikasi E commerce lifestyle yg memungkinkan user untuk melakukan pembelian product lifestyle untuk product yang mostly dimiliki oleh merchant MAP.",
     stack: ["Java", "Spring Boot", "WatermelonDB"],
     highlights: [
       "Desain RESTful API untuk data retrieval dan Menu Management",
@@ -124,6 +129,7 @@ export const experiences = [
     client: "Kimia Farma",
     role: "Technical Developer",
     duration: "Mei 2022 – April 2023",
+    overview: "Merupakan Aplikasi layanan kesehatan digital yg memungkinkan user dapat melakukan pembelian obat, konsultasi serta pengajuan resep secara online",
     stack: ["Java", "Spring Boot"],
     highlights: [
       "Integrasi transaksi KF Mobile ke Tokopedia",

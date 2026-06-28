@@ -13,6 +13,7 @@ interface Project {
   duration: string;
   stack: string[];
   highlights: string[];
+  overview?: string;
 }
 
 export const ProjectCard = ({ project }: { project: Project }) => {
@@ -58,6 +59,11 @@ export const ProjectCard = ({ project }: { project: Project }) => {
             className="overflow-hidden"
           >
             <div className="pt-6">
+              {project.overview && (
+                <p className="mb-4 text-text-secondary leading-relaxed border-l-2 border-accent pl-4 italic">
+                  {project.overview}
+                </p>
+              )}
               <ul className="list-inside list-disc space-y-2 text-text-secondary">
                 {project.highlights.map((highlight, idx) => (
                   <li key={idx} className="leading-relaxed">
