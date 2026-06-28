@@ -13,12 +13,12 @@
   --text-secondary: #595959;
   --border: rgba(0, 0, 0, 0.05);
 
-  --skill-backend: #FF8A65;
-  --skill-db: #E8FF8A;
-  --skill-cloud: #B3E5FC;
-  --skill-tools: #FF8A65;
-  --skill-domain: #E8FF8A;
-  --skill-broker: #B3E5FC;
+  --skill-backend: #D84315; /* Deep Orange */
+  --skill-db: #2E7D32; /* Deep Green */
+  --skill-cloud: #0277BD; /* Deep Blue */
+  --skill-tools: #C2185B; /* Deep Pink */
+  --skill-domain: #4527A0; /* Deep Purple */
+  --skill-broker: #00838F; /* Deep Teal */
 }
 
 @theme inline {
