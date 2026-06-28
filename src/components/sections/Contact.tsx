@@ -92,7 +92,7 @@ export const Contact = () => {
             href="https://wa.me/6289514523914"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-accent px-8 py-4 text-base font-semibold text-white transition-all hover:bg-accent-glow hover:scale-105 hover:shadow-xl hover:shadow-accent/20"
+            className="inline-flex items-center gap-2 pill-button bg-gradient-to-r from-accent to-accent-glow px-8 py-4 text-base font-semibold text-white transition-all hover:-translate-y-1 hover:shadow-xl hover:shadow-accent/20"
           >
             <Send size={18} />
             Kirim Pesan

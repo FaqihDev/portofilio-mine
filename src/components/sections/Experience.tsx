@@ -7,7 +7,7 @@ import { ProjectCard } from "@/components/ui/ProjectCard";
 
 export const Experience = () => {
   return (
-    <section id="experience" className="py-24 md:py-32 px-6 relative overflow-hidden bg-stitch-experience">
+    <section id="experience" className="py-24 md:py-32 px-6 relative overflow-hidden bg-horizon-grid">
       <div className="mx-auto max-w-7xl relative">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

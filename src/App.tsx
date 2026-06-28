@@ -7,10 +7,12 @@ import { Experience } from "@/components/sections/Experience";
 import { PersonalProjects } from "@/components/sections/PersonalProjects";
 import { Education } from "@/components/sections/Education";
 import { Contact } from "@/components/sections/Contact";
+import { CustomCursor } from "@/components/ui/CustomCursor";
 
 export default function App() {
   return (
     <>
+      <CustomCursor />
       <Navbar />
       <main>
         <Hero />

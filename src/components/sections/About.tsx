@@ -41,7 +41,7 @@ export const About = () => {
   ];
 
   return (
-    <section id="about" className="py-24 md:py-32 px-6 relative bg-stitch-about">
+    <section id="about" className="py-24 md:py-32 px-6 relative bg-horizon-grid">
       <div className="mx-auto max-w-7xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

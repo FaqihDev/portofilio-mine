@@ -23,7 +23,7 @@ export const Hero = () => {
   }, []);
 
   return (
-    <section id="top" className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 pt-20 bg-stitch-hero">
+    <section id="top" className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 pt-20 bg-horizon-grid">
       {/* Abstract Background Elements */}
       <div className="absolute inset-0 z-0 opacity-30">
         <div 
@@ -72,14 +72,14 @@ export const Hero = () => {
         >
           <a
             href="#experience"
-            className="group flex items-center justify-center gap-2 rounded-full bg-text-primary px-8 py-3.5 text-sm font-semibold text-bg-primary transition-all hover:bg-white hover:scale-105"
+            className="group flex items-center justify-center gap-2 pill-button bg-gradient-to-r from-accent to-accent-glow px-8 py-3.5 text-sm font-semibold text-white transition-all hover:-translate-y-1 hover:shadow-lg shadow-accent/20"
           >
             Lihat Portofolio
             <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
           </a>
           <a
             href="#contact"
-            className="flex items-center justify-center gap-2 rounded-full border border-border-subtle bg-bg-secondary/50 px-8 py-3.5 text-sm font-semibold text-text-primary transition-all hover:bg-bg-card hover:scale-105 backdrop-blur-sm"
+            className="flex items-center justify-center gap-2 pill-button border border-border-subtle bg-transparent px-8 py-3.5 text-sm font-semibold text-text-primary transition-all hover:bg-black/5 hover:-translate-y-1"
           >
             Hubungi Saya
             <Mail size={18} />

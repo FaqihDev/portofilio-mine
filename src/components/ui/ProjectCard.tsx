@@ -20,7 +20,7 @@ export const ProjectCard = ({ project }: { project: Project }) => {
 
   return (
     <div
-      className="group rounded-xl border border-border-subtle bg-bg-secondary/30 p-6 transition-all duration-300 hover:border-accent/50 hover:bg-bg-secondary/50 hover:shadow-lg hover:shadow-accent/5"
+      className="group glass-card rounded-[32px] p-8 transition-all duration-300 hover:border-accent/50 hover:bg-white/50"
     >
       <div 
         className="flex cursor-pointer items-start justify-between gap-4"

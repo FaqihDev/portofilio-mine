@@ -12,7 +12,7 @@ interface PersonalProject {
 
 export const PersonalProjectCard = ({ project }: { project: PersonalProject }) => {
   return (
-    <div className="group rounded-2xl border border-border-subtle bg-bg-secondary/30 p-8 transition-all duration-300 hover:border-accent/50 hover:bg-bg-secondary/50 hover:shadow-lg hover:shadow-accent/5 flex flex-col h-full">
+    <div className="group glass-card rounded-[32px] p-8 transition-all duration-300 hover:border-accent/50 hover:bg-white/50 flex flex-col h-full">
       <div className="flex justify-between items-start mb-4">
         <h3 className="text-2xl font-semibold text-text-primary group-hover:text-accent transition-colors">
           {project.project}
