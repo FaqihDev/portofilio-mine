@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { profile } from "@/data/portfolio";
+import { ThemeToggle } from "@/components/ui/ThemeToggle";
 
 const navLinks = [
   { name: "About", href: "#about" },
@@ -89,16 +90,20 @@ export const Navbar = () => {
           >
             Download CV
           </a>
+          <ThemeToggle />
         </nav>
 
         {/* Mobile Nav Toggle */}
-        <button
-          className="md:hidden text-text-primary p-2"
-          onClick={() => setIsMobileMenuOpen(true)}
-          aria-label="Open Menu"
-        >
-          <Menu size={24} />
-        </button>
+        <div className="md:hidden flex items-center gap-4">
+          <ThemeToggle />
+          <button
+            className="text-text-primary p-2"
+            onClick={() => setIsMobileMenuOpen(true)}
+            aria-label="Open Menu"
+          >
+            <Menu size={24} />
+          </button>
+        </div>
       </div>
 
       {/* Mobile Drawer */}

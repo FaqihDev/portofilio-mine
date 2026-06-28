@@ -21,6 +21,22 @@
   --skill-broker: #00838F; /* Deep Teal */
 }
 
+.dark {
+  --bg-primary: #020817;
+  --bg-secondary: #0f172a;
+  --bg-card: rgba(30, 41, 59, 0.6);
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --border: rgba(255, 255, 255, 0.1);
+
+  --skill-backend: #FF8A65;
+  --skill-db: #E8FF8A;
+  --skill-cloud: #B3E5FC;
+  --skill-tools: #FF8A65;
+  --skill-domain: #E8FF8A;
+  --skill-broker: #B3E5FC;
+}
+
 @theme inline {
   --color-bg-primary: var(--bg-primary);
   --color-bg-secondary: var(--bg-secondary);
