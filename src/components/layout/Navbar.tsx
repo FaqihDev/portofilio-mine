@@ -84,7 +84,7 @@ export const Navbar = () => {
             </a>
           ))}
           <a
-            href={profile.cvPath}
+            href={`${import.meta.env.BASE_URL}${profile.cvPath}`}
             download
             className="rounded-full bg-accent px-5 py-2 text-sm font-medium text-white transition-all hover:bg-accent-glow hover:scale-105 shadow-lg shadow-accent/25"
           >
@@ -148,7 +148,7 @@ export const Navbar = () => {
                 ))}
                 <div className="mt-8">
                   <a
-                    href={profile.cvPath}
+                    href={`${import.meta.env.BASE_URL}${profile.cvPath}`}
                     download
                     className="block text-center rounded-full bg-accent px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-accent-glow shadow-lg shadow-accent/25"
                   >
