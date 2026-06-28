@@ -8,7 +8,7 @@ export const profile = {
   email: "iamfaqih.rochman@gmail.com", 
   linkedin: "https://www.linkedin.com/in/faqih-abdulrachman-03483b1b7/",
   github: "https://github.com/FaqihDev",
-  cvPath: "assets/cv-faqih-2026.pdf"
+  cvPath: "assets/CV_Faqih_Abdul_Rachman.pdf"
 };
 
 export const skills = [
