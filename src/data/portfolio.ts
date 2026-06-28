@@ -52,6 +52,19 @@ export const skills = [
 
 export const experiences = [
   {
+    id: 6,
+    project: "WMS Avantrade (Wealth Management System)",
+    company: "Indivara Teknology Quantum",
+    client: "Avantrade",
+    role: "Technical Developer",
+    duration: "Maret 2026 – Juni 2026",
+    description: [
+      "Hands on Developing project on integrate to Back Office Account for user to do investment with multiple products with Avantrade.",
+      "Fixing Bugs and enhance performance by implementing Indexing on slow query."
+    ],
+    techStack: ["Java", "Spring Boot", "SQL"]
+  },
+  {
     id: 1,
     project: "Biller Rintis (PDAM & KAI)",
     company: "Indivara Teknology Quantum",
