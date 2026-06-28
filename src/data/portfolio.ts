@@ -58,11 +58,11 @@ export const experiences = [
     client: "Avantrade",
     role: "Technical Developer",
     duration: "Maret 2026 – Juni 2026",
-    description: [
-      "Hands on Developing project on integrate to Back Office Account for user to do investment with multiple products with Avantrade.",
-      "Fixing Bugs and enhance performance by implementing Indexing on slow query."
+    highlights: [
+      "Hands on developing on Menu Back Office that maintain the purchase of customer on of every investment product provided on Avantrade",
+      "Bug Fixing and enhance performance by implementing Indexing on slow endpoint / API."
     ],
-    techStack: ["Java", "Spring Boot", "SQL"]
+    stack: ["Java", "Spring Boot", "SQL"]
   },
   {
     id: 1,
